@@ -8,6 +8,7 @@ const Quote = () => {
     const { quoteData, error, fetchData } = useFetchData();
     
     console.log(quoteData);
+    // returns null because there is no error until there is one
     console.log(error);
 
     const newQuoteHandler = () => {

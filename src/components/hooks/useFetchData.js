@@ -18,10 +18,13 @@ const useFetchData = () => {
   };
 
   useEffect(() => {
+    // this populates info immediately on page then, then kicks off the timer
+    fetchData();
     const timer = setInterval(() => {
       fetchData();
     }, 5000);
 
+    // this cleans up the timer after it's done
     return () => {
       clearInterval(timer);
     };
