@@ -32,12 +32,12 @@ const QuoteText = (props) => {
 
     return (
         <div className={classes.quoteContainer}>
-            <p className={classes.advice}>Advice #{id}</p>
+            <p className={classes.advice}>ADVICE #{id}</p>
             <div className={classes.quoteDiv}>
                 {content}
             </div>
             <img src={separator} />
-            <button></button>
+            <button onClick={props.onClick}></button>
         </div>
   );
 };
