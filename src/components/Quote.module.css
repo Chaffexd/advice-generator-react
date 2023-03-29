@@ -1,0 +1,6 @@
+.quoteContainer {
+    height: 22rem;
+    width: 35rem;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+}

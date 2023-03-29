@@ -1,0 +1,49 @@
+.quoteContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.advice {
+    color: hsl(150, 100%, 66%);
+}
+
+.quoteDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.quote {
+    font-size: 28px;
+    color: rgb(208,223,232);
+    margin: 0;
+    width: 90%;
+    text-align: center;
+}
+
+.quoteError {
+    font-size: 28px;
+    color: red;
+    margin: 0;
+    width: 90%;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../images/icon-dice.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsl(150, 100%, 66%);
+    position: relative;
+    bottom: -33px;
+}
